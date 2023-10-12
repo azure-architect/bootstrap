@@ -1,0 +1,18 @@
+{
+  "name": "my-bootstrap",
+  "version": "1.0.0",
+  "description": "my basic setup for bootstrap 5",
+  "main": "index.js",
+  "repository": "https://github.com/azure-architect/bootstrap",
+  "author": "azure-architect",
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass -watch scss:css",
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2",
+    "dart-sass": "^1.25.0"
+  }
+}
